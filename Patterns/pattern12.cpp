@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void printPattern10(int n){
+void printPattern12(int n){
 
     int space = (2 * (n - 1));
     for (int i = 1; i <= n; i++)
@@ -31,7 +31,7 @@ int main(){
     for(int i = 1; i<= t; i++){
         int n; 
         cin >> n; 
-        printPattern10(n); 
+        printPattern12(n); 
     }
 
 
